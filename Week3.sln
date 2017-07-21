@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WineWeb", "WineWeb\WineWeb.csproj", "{08F4B414-48F6-4C23-9F6B-FFE84AAC2480}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{93A02B08-1343-4EAD-9C52-8A2FFB99CC52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WineApi", "WineApi\WineApi.csproj", "{13B6F902-98E2-49FC-9769-A981CB6A3938}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08F4B414-48F6-4C23-9F6B-FFE84AAC2480}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08F4B414-48F6-4C23-9F6B-FFE84AAC2480}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08F4B414-48F6-4C23-9F6B-FFE84AAC2480}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08F4B414-48F6-4C23-9F6B-FFE84AAC2480}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93A02B08-1343-4EAD-9C52-8A2FFB99CC52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93A02B08-1343-4EAD-9C52-8A2FFB99CC52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93A02B08-1343-4EAD-9C52-8A2FFB99CC52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93A02B08-1343-4EAD-9C52-8A2FFB99CC52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13B6F902-98E2-49FC-9769-A981CB6A3938}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13B6F902-98E2-49FC-9769-A981CB6A3938}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13B6F902-98E2-49FC-9769-A981CB6A3938}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13B6F902-98E2-49FC-9769-A981CB6A3938}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

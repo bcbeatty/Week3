@@ -1,0 +1,14 @@
+version: '2'
+
+services:
+  wineweb:
+    image: wineweb
+    build:
+      context: ./WineWeb
+      dockerfile: Dockerfile
+
+  wineapi:
+    image: wineapi
+    build:
+      context: ./WineApi
+      dockerfile: Dockerfile
